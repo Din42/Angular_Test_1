@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #ff6f61, #6a11cb);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            text-align: center;
+        }
+
+        .time{
+            animation: fadeIn 9s ease-in-out;                  
+        }
+
+
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            animation: glow 2s infinite alternate;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #fff;
+            color: #6a11cb;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #ff6f61;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Добро пожаловать в будущее</h1>
+        <p >Откройте для себя творчество и вдохновение, как никогда раньше.</p>
+        
+        
+    
+        <button class="button" onclick="window.open('https://github.com', '_blank')">Начать</button>
+    </div>
+<p class="time">Gembel Denis</p>
+</body>
+</html>
