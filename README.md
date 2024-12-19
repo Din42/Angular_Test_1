@@ -12,6 +12,7 @@ To start a local development server, run:
 ```bash
 ng serve
 ```
+![2024-12-18_23-14-38](https://github.com/user-attachments/assets/661a93b4-4fc8-4dfe-adf6-9bb740e2651a)
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
