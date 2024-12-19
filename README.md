@@ -1,3 +1,6 @@
+
+![Снимок экрана 2024-12-18 231103](https://github.com/user-attachments/assets/5e777bff-9e91-4ca4-87fb-8defce11a824)
+
 # Test
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
